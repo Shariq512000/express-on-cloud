@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express()
-const port = 5000;
+const port = process.env.PORT || 5001;
 
 /// 192.168.200.121:5000
 
